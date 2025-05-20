@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """the `n` returns minoperations"""
 
+
 def minOperations(n):
     if n < 2:
         return 0
@@ -15,4 +16,3 @@ def minOperations(n):
         factor += 1
 
     return operations
-
